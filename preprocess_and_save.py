@@ -1,7 +1,5 @@
 import tensorflow as tf
-import pickle
 import numpy as np
-import sys
 from tensorflow.keras import datasets, layers, models
 import matplotlib.pyplot as plt
 from keras.utils import to_categorical
@@ -21,7 +19,6 @@ from keras.optimizers import SGD
 from tensorflow import keras
 from tensorflow.image import resize
 from tensorflow.image import ResizeMethod
-import cv2
 
 from skimage import data, color
 from skimage.transform import rescale, resize, downscale_local_mean
